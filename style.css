@@ -1,0 +1,60 @@
+* ::after,::before{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    
+}
+
+.calculator{
+    width:60vw;
+    height:70vh;    
+    margin:50px auto;
+    display: flex;  
+    flex-wrap: wrap;    
+
+}
+
+
+.display{
+    display: flex;
+    height:20%;
+    width:100%;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: right;
+    padding:15px;
+    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.75);
+}
+
+.currentNumber{
+    font-size:30px;
+}
+
+.pannel{
+    height:80%;
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+    
+}
+
+.pannel button{
+    flex-basis:22%;
+    height:5vh;
+    font-size:20px;
+    
+}
+
